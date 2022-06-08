@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto elevador </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div id="canvas">
+        <p>Este es mi F#$K proyecto.</p>
+
+        <div id="floorSelect">
+            <h4>Seleciona tu piso</h4>
+            <ul>
+
+                <li data-floor="4">4</li>
+                <li data-floor="3">3</li>
+                <li data-floor="2">2</li>
+                <li data-floor="1">1</li>
+                <li data-floor="0">Sotano</li>
+
+            </ul>
+
+        </div>
+        <div id="building">
+
+            <div id="elevatorShaft">
+
+                <div id="elevatorContainer">
+                    <div id="strings"></div>
+                    <div id="elevator">
+                        <div class="door active-left" id="leftDoor"></div>
+                        <div class="door active-right" id="rightDoor"> </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
